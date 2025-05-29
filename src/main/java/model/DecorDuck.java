@@ -3,13 +3,14 @@ package model;
 import fly_behavior.FlyBehavior;
 import fly_behavior.FlyNoWay;
 import quack_behavior.MuteQuack;
+import quack_behavior.Quack;
 import quack_behavior.QuackBehavior;
 
 public class DecorDuck extends Duck{
 
     @Override
     public void display() {
-        System.out.println("Это деревянная утка!");
+        System.out.println("Это деревянная утка");
     }
 
     @Override

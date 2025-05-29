@@ -3,7 +3,7 @@ import model.Duck;
 import model.RedheadDuck;
 import model.RubberDuck;
 
-public class Main {
+public class  Main {
     public static void main(String[] args) {
         Duck rubberDuck = new RubberDuck();
         Duck redheadDuck = new RedheadDuck();
